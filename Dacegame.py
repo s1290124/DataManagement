@@ -1,5 +1,9 @@
 import random
 
+print("What is your name?")
+name = input(">")
+print("Hello,{}!".format(name))
+
 print("Rolling dace...")
 
 roll1 = random.randint(1,6)
